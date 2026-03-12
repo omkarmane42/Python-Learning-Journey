@@ -37,4 +37,24 @@ print(a is not b)
 # Membership Operators
 name = "Python"
 print("P" in name)
+
 print("z" not in name)
+
+## Python Operators Practice Questions:
+
+# 1.Write the to the sqaure of number using operator.
+
+num= 6
+print(num**2)
+
+# 2.Write a program to check whether a number is between 10 and 20.
+num=int(input("enter a Number: "))
+if num>10 AND num <20:
+Print("Number is Beetween 10 and 20")
+
+
+
+
+
+
+
