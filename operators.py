@@ -11,6 +11,16 @@ print("Multiplication:", a * b)
 print("Division:", a / b)
 print("Modulus:", a % b)
 
+principle = float(input("enter the principle amount : "))
+rate = float(input("enter the annual intrest rate of(as a percentage): "))
+time=float(input("enter the time in years: "))
+
+# calculate the simple intrest
+
+simple_intrest = (principle*rate*time)/100
+
+print(f"the simple intrest is : {simple_intrest}")
+
 # Comparison Operators
 print(a > b)
 print(a < b)
