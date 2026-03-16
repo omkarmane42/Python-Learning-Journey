@@ -21,6 +21,52 @@ simple_intrest = (principle*rate*time)/100
 
 print(f"the simple intrest is : {simple_intrest}")
 
+## swapping two numbers using arithmatic operator
+
+# a = 10
+# b=20
+
+# a,b=b,a
+# print("a",a)
+# print("b",b)
+
+# #using arithmatic operation
+
+# a= a+b
+# b= a-b
+# a= a-b
+
+# print(f"a={a}, b={b}")
+
+## find the avarage og three number
+
+# num1= 10
+# num2 = 20
+# num3 =30 
+
+# avarage= (num1+ num2+ num3)/3  # using basic arith matic
+# print(avarage)
+
+# import statistics
+# numbers = [10, 20, 30]
+# avarage= sum(numbers)/len(numbers)  # using len() and Sum()
+# print(avarage)
+
+# avarage= statistics.mean(numbers)  #using statistics mean()
+# print(avarage)
+
+
+# n = int(input("enter how many numbers to calculate avarage ? "))
+# numbers = []
+
+# for i in range(n):
+#     num = float(input(f"{i+1}st Enter the number : "))
+#     numbers.append(num)
+
+# average = sum(numbers) / n
+# print(f"Average is: {average}")
+
+
 # Comparison Operators
 print(a > b)
 print(a < b)
